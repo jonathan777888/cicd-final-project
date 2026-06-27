@@ -1,0 +1,13 @@
+# Coursera submission artifacts
+
+Add your real Coursera/OpenShift evidence here before submitting.
+
+Required files:
+
+1. `oc-pipelines-console-pvc-details.png`
+2. `github-actions-success.txt`
+3. `oc-pipelines-oc-final.png`
+4. `oc-pipelines-oc-green.png`
+5. `openshift-app-logs.txt`
+
+Do not use fake screenshots. Use the real screenshots and terminal output from your own GitHub Actions and OpenShift cluster.

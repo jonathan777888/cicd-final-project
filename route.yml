@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cicd-final-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cicd-final-project
+  template:
+    metadata:
+      labels:
+        app: cicd-final-project
+    spec:
+      containers:
+        - name: cicd-final-project
+          image: image-registry.openshift-image-registry.svc:5000/YOUR_NAMESPACE/cicd-final-project:latest
+          ports:
+            - containerPort: 8080
